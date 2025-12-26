@@ -1,0 +1,10 @@
+principle=float(input("enter a principle value:"))
+rate=float(input("enter a rate of interest value:"))
+time=int(input("enter no of years:"))
+p=principle
+r=rate
+t=time
+compound_amount=p*(1+r/100)**t
+compound_interest=compound_amount-p
+print("compound amount=",compound_amount)
+print("compound interest=",compound_interest)
